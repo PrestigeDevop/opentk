@@ -1,5 +1,16 @@
-OpenTK
+Denovo GameEngine 
+
+
 ======
+This repo is a placeholder for a game engine i'm working on , Denovo means "fromscrtach"
+this game engine suppose to support micropolygon rendering using meshshader , we will try to implment  hybird rendering pipline ( rasterizer +uring  mesh shader + neural rendering as post proccessing stage) .
+the BCL will use .net 5 but it would also support c++ compiler  , 
+the shader will use HLSL cross platform  ShaderConductor & bgfx implmentation  .
+
+the editor use Imgui Visual commponets library and Entite commpoent system.
+
+it will support DOTS thus the name " denovo"  
+
 
 OpenTK is a large project. There are many components to work on, and we'd welcome almost any contribution. The community is friendly, welcoming and always ready to help you get your PRs merged!
 
